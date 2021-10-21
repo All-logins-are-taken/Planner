@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/planner",
+  "description": "practical test Import and render plans from Planner",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "fkan",
+      "email": "shalexander2016@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "ext-pdo": "*",
+    "ext-dom": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
